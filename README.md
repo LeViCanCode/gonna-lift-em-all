@@ -1,9 +1,9 @@
-# Writeup for gonna-lift-em-all HTB Hack The Boo day1 crypto
+# gonna-lift-em-all HTB Hack The Boo day1 crypto
 
 
 ### The Code 
 
-```
+```py
 from Crypto.Util.number import bytes_to_long, getPrime
 import random
 
