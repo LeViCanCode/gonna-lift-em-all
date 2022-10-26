@@ -54,7 +54,7 @@ finally m = c2 * s^-1 mod p
 
 
 ### Solving for y
-to solve for y we need to first get the modular multiplicate inverse of g^-1 for this i used this [tool](https://www.dcode.fr/modular-inverse) with the int being g and the modulo being p, if you did this right you should get 
+to solve for y we need to first get the modular multiplicate inverse of g^-1 for this I used this [tool](https://www.dcode.fr/modular-inverse) with the int being g and the modulo being p, if you did this right you should get 
 ```
 120027004247158358184703385511138910446176598283657810928960020555251889532032199706156913358525135228299658796007082082987316875751452608872617761586138905964991747541264336966530405406630206297358091931611374901221899003603216345652222991753618659380928999922962044386202238694636990131574221328099007640482
 ```
@@ -104,5 +104,8 @@ print(long_to_bytes(flag))
 
 ```
 
-that should return the flag HTB{b3_c4r3ful_wh3n_1mpl3m3n71n6_cryp705y573m5_1n_7h3_mul71pl1c471v3_6r0up}!
+that should return the flag 
+```
+HTB{b3_c4r3ful_wh3n_1mpl3m3n71n6_cryp705y573m5_1n_7h3_mul71pl1c471v3_6r0up}
+```
 
