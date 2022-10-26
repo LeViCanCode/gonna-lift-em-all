@@ -53,7 +53,7 @@ s can be easily solved for by computing s = h^y mod p
 finally m = c2 * s^-1 mod p
 
 
-### solving for y
+### Solving for y
 to solve for y we need to first get the modular multiplicate inverse of g^-1 for this i used this [tool](https://www.dcode.fr/modular-inverse) with the int being g and the modulo being p, if you did this right you should get 
 ```
 120027004247158358184703385511138910446176598283657810928960020555251889532032199706156913358525135228299658796007082082987316875751452608872617761586138905964991747541264336966530405406630206297358091931611374901221899003603216345652222991753618659380928999922962044386202238694636990131574221328099007640482
@@ -69,14 +69,14 @@ so
 y = 151545036818752418931716093171030939827729309717327611184964755063685533596024474465903219353892430936128129116061427826165388249908655823309049171719865481058072839169911183783187254412879190149192386989186799988830028288993778261809217410313001568877314905167838867719115514855795015291428405597461040625720
 ```
 
-## solving for s
+## Solving for s
 
 s is really easy to solve for since it's h^y mod p and we know all those values, i recommend using pythons pow() function to make the math on this one take not forever.  if everything is done right 
 ```
 s = 97462626764574972789405707853736776801131892662685049788888445937335307309802916804770978800211152464507610133907443690200443337122554845143013035673411159832257337734583042568923321169807909583339712803034130755892624097871888129173372595909172265258031320357247928751965375753164262717332601963215413213638
 ```
 
-## solving for m 
+## Solving for m 
 
 solving for m should be very similar as what we did solving for y, we are even using the same tool as before, but this time we want our int being used and s and keeping the modulo as p, for s^-1 you should get 
 ```
@@ -90,7 +90,7 @@ from here m = c2 * is mod p which should equal
 ```
 lets call this value flag
 
-## solving for the flag
+## Solving for the flag
 
 from here we technically have the flag, but in order to get it into the flag format we need to use the opposite of bytes_to_long which is long_to_bytes
 we will use the same crypto library as the code
