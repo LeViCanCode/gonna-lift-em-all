@@ -104,5 +104,5 @@ print(long_to_bytes(flag))
 
 ```
 
-that should return the flag which is HTB{b3_c4r3ful_wh3n_1mpl3m3n71n6_cryp705y573m5_1n_7h3_mul71pl1c471v3_6r0up}!
+that should return the flag HTB{b3_c4r3ful_wh3n_1mpl3m3n71n6_cryp705y573m5_1n_7h3_mul71pl1c471v3_6r0up}!
 
